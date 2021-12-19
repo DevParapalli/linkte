@@ -1,6 +1,6 @@
 {
-    "title": "Links + Svelte = Linkte ?",
-    "subtitle":"DevParapalli's Collection of Links",
+    "title": "DevParapalli's Links",
+    "subtitle":"",
     "sections":[
         {
             "title":"GCOEN",
@@ -35,6 +35,22 @@
                     "title":"Maths-1 Google Classroom (CSE Only)",
                     "description":"Classroom Join Code : dmw4nwm",
                     "href":"https://classroom.google.com/c/NDQ2MDU0MjQyMjU1"
+                }
+            ]
+        },
+        {
+            "title":"Projects",
+            "description":"Links for people from other walks of life.",
+            "links": [
+                {   
+                    "title":"GitHub Profile Page",
+                    "description":"GitHub Profile Page",
+                    "href":"https://github.com/DevParapalli"
+                },
+                {   
+                    "title":"[WIP] music-manager-ng",
+                    "description":"A [WIP] project to play and manage music over a terminal session",
+                    "href":"https://github.com/DevParapalli/music-manager-ng"
                 }
             ]
         }
