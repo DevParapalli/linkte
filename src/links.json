@@ -1,0 +1,42 @@
+{
+    "title": "Links + Svelte = Linkte ?",
+    "subtitle":"DevParapalli's Collection of Links",
+    "sections":[
+        {
+            "title":"GCOEN",
+            "description":"Links for people from GCOEN",
+            "links": [
+                {   
+                    "title":"GCOEN Home Page",
+                    "description":"Home Page for the GCOEN Institute",
+                    "href":"https://www.gcoen.ac.in/"
+                },
+                {   
+                    "title":"Reference Books",
+                    "description":"These were some books that I found over the interwebs",
+                    "href":"https://mega.nz/folder/YHhmUYpC#8fQUIrQBrrDJuW158CW6bg"
+                },
+                {   
+                    "title":"Notes",
+                    "description":"These are notes uploaded by me or college-mates",
+                    "href":"https://mega.nz/folder/QGhHnQ4J#FFov5s5Ux7FJl21MiuPl8Q"
+                },
+                {   
+                    "title":"Reference Notes by Instructor",
+                    "description":"These are notes uploaded by the instructor",
+                    "href":"https://mega.nz/folder/QGhHnQ4J#FFov5s5Ux7FJl21MiuPl8Q"
+                },
+                {   
+                    "title":"Upload Notes Here",
+                    "description":"Upload your submissions here",
+                    "href":"https://mega.nz/megadrop/9uiIlHDk_l0"
+                },
+                {   
+                    "title":"Maths-1 Google Classroom (CSE Only)",
+                    "description":"Classroom Join Code : dmw4nwm",
+                    "href":"https://classroom.google.com/c/NDQ2MDU0MjQyMjU1"
+                }
+            ]
+        }
+    ]
+}

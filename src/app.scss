@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: 'Quicksand';
+  box-sizing: border-box;
+}
+
+/* Consistent and Standardized Scrollbar ? *laughs then cries* */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #374151 #111827;
+}
+::-webkit-scrollbar {
+  @apply w-2
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-slate-700
+}
