@@ -6,13 +6,13 @@
 </script>
 
 <svelte:head>
-	<title>DevParapali</title>
+	<title>DevParapalli</title>
 </svelte:head>
 
 <section class="bg-gray-900 body-font text-gray-400">
 	<div class="mx-auto container pb-10 pt-10 px-5">
 		<div class="text-center mb-20">
-			<h1 class="text-center font-medium mb-4 sm:text-3xl text-2xl text-green-50 title-font">{links_data.title}</h1>
+			<h1 class="rainbow-text text-center font-medium mb-4 sm:text-3xl text-2xl text-green-50 title-font">{links_data.title}</h1>
 			<p class="mx-auto leading-relaxed lg:w-3/4 text-base xl:w-2/4">{links_data.subtitle}</p>
 		</div>
 		<div class="flex flex-wrap m-4">
@@ -23,3 +23,20 @@
 		<!-- Insert Button Here -->
 	</div>
 </section>
+
+<style>
+	.rainbow-text {
+		background-image: repeating-linear-gradient(45deg, violet, indigo, blue, green, yellow, orange, red, violet);
+  		text-align: center;
+  		background-size: 800% 800%;
+  		-webkit-background-clip: text;
+  		-webkit-text-fill-color: transparent;
+  		animation: rainbow 32s ease infinite;
+	}
+
+	@keyframes rainbow { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 25%}
+    100%{background-position:0% 50%}
+	}
+</style>
