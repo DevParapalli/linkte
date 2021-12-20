@@ -53,6 +53,37 @@
                     "href":"https://github.com/DevParapalli/music-manager-ng"
                 }
             ]
+        },
+        {
+            "title":"Socials",
+            "description":"Links for my socials",
+            "links": [
+                {   
+                    "title":"GitHub",
+                    "description":"GitHub Profile Page",
+                    "href":"https://github.com/DevParapalli"
+                },
+                {
+                    "title":"LinkedIn",
+                    "description":"LinkedIn Profile Page",
+                    "href":"https://www.linkedin.com/in/devansh-parapalli-6ba418181/"
+                },
+                {
+                    "title":"Twitch",
+                    "description":"Twitch Profile Page",
+                    "href":"https://www.twitch.tv/RogueCatalystTTV"
+                },
+                {
+                    "title":"Email",
+                    "description":"Email Address",
+                    "href":"mailto:parapallidev@gmail.com"
+                },
+                {
+                    "title":"Telegram",
+                    "description":"Telegram DM",
+                    "href":"https://t.me/devparapalli"
+                }
+            ]
         }
     ]
 }

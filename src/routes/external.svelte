@@ -1,6 +1,6 @@
 <script context="module" lang="ts">
     export async function load({page, fetch, session, stuff}) {
-        const url = page.params.file
+        const url = page.query.get('file')
         const response = await fetch(url)
 
         if (response.ok) {
@@ -21,6 +21,10 @@
     import LinkSection from "$lib/LinkSection.svelte";
     export let links_data;
 </script>
+
+<svelte:head>
+	<title>{links_data.title}</title>
+</svelte:head>
 
 <section class="bg-gray-900 body-font text-gray-400">
 	<div class="mx-auto container pb-10 pt-10 px-5">

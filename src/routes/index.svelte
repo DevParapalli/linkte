@@ -5,6 +5,10 @@
 	let links_data: Links = links;
 </script>
 
+<svelte:head>
+	<title>DevParapali</title>
+</svelte:head>
+
 <section class="bg-gray-900 body-font text-gray-400">
 	<div class="mx-auto container pb-10 pt-10 px-5">
 		<div class="text-center mb-20">
@@ -16,6 +20,6 @@
 				 <LinkSection link_section_data={section} />
 			{/each}
 		</div>
-		
+		<!-- Insert Button Here -->
 	</div>
 </section>
