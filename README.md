@@ -27,7 +27,7 @@ yarn preview
 
 The application is built using [SvelteKit](https://kit.svelte.dev/). You only need to install and change the adapter in `svelte.config.js`. Check the [SvelteKit documentation](https://kit.svelte.dev/docs#adapters) for more information.
 
-## Adding you own links
+## Adding your own links
 
 The file `src/links.json` contains the list of links. You can add your own links by editing this file.
 
