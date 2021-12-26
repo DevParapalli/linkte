@@ -14,6 +14,10 @@ cd linkte
 # Install deps
 yarn
 
+# create .env file
+touch .env
+## Now add DWEET_KEY="<your_key>" to this file.
+
 # Enter development mode.
 yarn dev
 
