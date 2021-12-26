@@ -1,25 +1,25 @@
 <script context="module" lang="ts">
-    export async function load({page, fetch, session, stuff}) {
-        const url = page.query.get('file')
-        const response = await fetch(url)
+	export async function load({ page, fetch, session, stuff }) {
+		const url = page.query.get('file');
+		const response = await fetch(url);
 
-        if (response.ok) {
-            return {
-                props: {
-                    links_data: await response.json()
-                }
-            }
-        }
-        return {
-            status: response.status, 
-            error: new Error(`Could not load ${url}`)
-        };
-    }
+		if (response.ok) {
+			return {
+				props: {
+					links_data: await response.json()
+				}
+			};
+		}
+		return {
+			status: response.status,
+			error: new Error(`Could not load ${url}`)
+		};
+	}
 </script>
 
 <script>
-    import LinkSection from "$lib/LinkSection.svelte";
-    export let links_data;
+	import LinkSection from '$lib/LinkSection.svelte';
+	export let links_data;
 </script>
 
 <svelte:head>
@@ -34,9 +34,8 @@
 		</div>
 		<div class="flex flex-wrap m-4">
 			{#each links_data.sections as section}
-				 <LinkSection link_section_data={section} />
+				<LinkSection link_section_data={section} />
 			{/each}
 		</div>
-		
 	</div>
 </section>

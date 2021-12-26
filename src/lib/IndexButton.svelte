@@ -1,1 +1,0 @@
-<button class="mx-auto bg-green-500 border-0 flex focus:outline-none hover:bg-green-600 mt-16 px-8 py-2 rounded text-lg text-white">Button</button>

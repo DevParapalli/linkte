@@ -9,7 +9,7 @@ const config = {
 	},
 
 	plugins: [forms, typography],
-	darkMode: 'class',
+	darkMode: 'class'
 };
 
 module.exports = config;
