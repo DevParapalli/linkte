@@ -2,9 +2,11 @@
 	import SucessAlert from '$lib/AdminSucessAlert.svelte';
 	import { goto } from '$app/navigation';
 	import { variables } from '$lib/variables';
+	import Editor from '@tinymce/tinymce-svelte';
 
 	let SucessShown = false;
 	let transaction_id = '';
+	let message_value = "";
 	// Handle Form
 	async function handle_form_submit(event) {
 		const form_data = new FormData(event.target);
@@ -75,10 +77,35 @@
 				<div class="p-2 w-full">
 					<div class="relative">
 						<label for="message" class="leading-7 text-sm text-gray-400">Message</label>
+						<div class="">
+							<Editor 
+							conf="{
+							{
+								skin: 'oxide-dark', 
+								content_css: 'dark', 
+								menubar: false, 
+								toolbar: 'undo redo | bold italic | link image', 
+								plugins: 'autolink lists link image print preview',
+								// Link Plugin conf
+								default_link_target: '_blank',
+								//link_assume_external_targets: 'https',
+								link_default_protocol: 'https',
+								default_link_class: 'text-green-500 hover:underline hover:text-green-400 px-2 mx-2',
+								link_class_list: [
+									{title: 'None', value: 'text-green-500 hover:underline hover:text-green-400 px-2 mx-2'},
+									
+								]
+
+
+							}}"
+							bind:value="{message_value}" 
+							apiKey="{variables.TINYMCE_KEY}"
+							/>
+						</div>
 						<textarea
 							id="message"
 							name="message"
-							class="w-full bg-gray-800 bg-opacity-40 rounded border border-gray-700 focus:border-green-500 focus:bg-gray-900 focus:ring-2 focus:ring-green-900 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out" />
+							class="hidden invisible" bind:value="{message_value}"/>
 					</div>
 				</div>
 				<div class="p-2 w-full">

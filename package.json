@@ -18,6 +18,7 @@
 		"@sveltejs/kit": "next",
 		"@tailwindcss/forms": "^0.4.0",
 		"@tailwindcss/typography": "^0.5.0",
+		"@tinymce/tinymce-svelte": "^0.1.2",
 		"@typescript-eslint/eslint-plugin": "^4.31.1",
 		"@typescript-eslint/parser": "^4.31.1",
 		"autoprefixer": "^10.4.0",
