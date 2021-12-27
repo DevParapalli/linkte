@@ -3,18 +3,26 @@
 	import { goto } from '$app/navigation';
 	import { variables } from '$lib/variables';
 	import Editor from '@tinymce/tinymce-svelte';
+	import { onMount } from 'svelte';
 
 	let SucessShown = false;
 	let transaction_id = '';
 	let message_value = "";
 	// Handle Form
-	async function handle_form_submit(event) {
-		const form_data = new FormData(event.target);
-		const data = {
+	let data = {
 			title: '',
 			subtitle: '',
 			message: ''
 		};
+	// populate using previous data
+	onMount(async () => {
+		let response = await fetch(`https://dweet.io:443/get/latest/dweet/for/${variables.DWEET_KEY}`);
+		let _data = await response.json();
+		data = _data.with[0].content
+
+	})
+	async function handle_form_submit(event) {
+		const form_data = new FormData(event.target);
 
 		for (let field of form_data) {
 			const [key, value] = field;
@@ -58,6 +66,7 @@
 					<div class="relative">
 						<label for="title" class="leading-7 text-sm text-gray-400">Title</label>
 						<input
+						bind:value={data.title}
 							type="text"
 							id="title"
 							name="title"
@@ -68,6 +77,7 @@
 					<div class="relative">
 						<label for="email" class="leading-7 text-sm text-gray-400">Author</label>
 						<input
+							bind:value={data.subtitle}
 							type="text"
 							id="subtitle"
 							name="subtitle"
@@ -98,14 +108,14 @@
 
 
 							}}"
-							bind:value="{message_value}" 
+							bind:value="{data.message}" 
 							apiKey="{variables.TINYMCE_KEY}"
 							/>
 						</div>
 						<textarea
 							id="message"
 							name="message"
-							class="hidden invisible" bind:value="{message_value}"/>
+							class="hidden invisible" bind:value="{data.message}"/>
 					</div>
 				</div>
 				<div class="p-2 w-full">
