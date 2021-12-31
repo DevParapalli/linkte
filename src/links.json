@@ -7,6 +7,11 @@
 			"description": "Links for people from GCOEN",
 			"links": [
 				{
+					"title": "CSE TimeTable",
+					"description": "** Not Yet Functional **",
+					"href": "/timetable"
+				},
+				{
 					"title": "GCOEN Home Page",
 					"description": "Home Page for the GCOEN Institute",
 					"href": "https://www.gcoen.ac.in/"

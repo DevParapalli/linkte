@@ -18,3 +18,13 @@
 ::-webkit-scrollbar-thumb {
 	@apply bg-slate-700;
 }
+
+html {
+	scroll-behaviour: smooth;
+	@apply select-none
+}
+
+body {
+	text-rendering: optimizeSpeed;
+	@apply antialiased 
+}
