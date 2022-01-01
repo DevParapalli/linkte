@@ -3,7 +3,7 @@
 	export let href = 'https://www.authenticclicheforage.com/';
 </script>
 
-<a {href} class="p-2 sm:w-1/2 w-full">
+<a sveltekit:prefetch {href} class="p-2 sm:w-1/2 w-full">
 	<div class="bg-gray-800 rounded flex p-4 h-full items-center">
 		<svg
 			fill="none"

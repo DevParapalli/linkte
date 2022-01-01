@@ -1,0 +1,98 @@
+{
+	"title": "The Great Guidening",
+	"subtitle": "",
+	"description": "",
+	"guides": [
+		{
+			"name": "Python",
+			"category": "Language Setup",
+			"description": "This is a language I highly recommend for beginners. Most language constructs are simple, many of the issues are solved either by libraries or by StackOverflow.",
+			"url": "https://code.visualstudio.com/docs/languages/python",
+			"prereq": ["vs-code"]
+		},
+		{
+			"name": "C/C++",
+			"category": "Language Setup",
+			"description": "This is a standardized language for general-purpose programming. It is a good language to learn if you are new to programming.",
+			"url": "https://code.visualstudio.com/docs/languages/cpp",
+			"prereq": ["vs-code"]
+		},
+		{
+			"name": "Rust",
+			"category": "Language Setup",
+			"description": "Rust is more powerful than C/C++, but it's still has a bit of a learning curve.",
+			"url": "https://docs.microsoft.com/en-us/windows/dev-environment/rust/overview",
+			"prereq": ["vs-code"]
+		},
+		{
+			"name": "Java",
+			"category": "Language Setup",
+			"description": "The language behind Minecraft and Android Applications. Cross-platform, similar to C/C++",
+			"url": "https://code.visualstudio.com/docs/languages/java",
+			"prereq": ["vs-code"]
+		},
+		{
+			"name": "JavaScript",
+			"category": "Language Setup",
+			"description": "This is a language that is used for web development. With the introduction of NodeJS, you can write a full-stack application in JavaScript. It's a bit convoluted and missing typechecking, has some extra syntax, and is a bit of a pain to code correctly.",
+			"url": "https://code.visualstudio.com/docs/languages/javascript",
+			"prereq": ["vs-code"]
+		},
+		{
+			"name": "TypeScript",
+			"category": "Language Setup",
+			"description": "Solves most issues with JS, has a learning curve. Requires NodeJS and compiles to Javascript.",
+			"url": "https://code.visualstudio.com/docs/languages/typescript",
+			"prereq": ["vs-code", "javascript"]
+		},
+		{
+			"name": "VS Code",
+			"category": "Tooling Setup",
+			"description": "Code Editor made by Microsoft. Requires extensions to be installed. Easily my favorite IDE.",
+			"url": "https://code.visualstudio.com/docs/setup/setup-overview",
+			"prereq": []
+		},
+		{
+			"name": "Git",
+			"category": "Tooling Setup",
+			"description": "Git is a version control system. It's a good way to keep track of changes to your code. Must learn if you are programming.",
+			"url": "https://docs.microsoft.com/en-gb/learn/paths/intro-to-vc-git",
+			"prereq": []
+		},
+		{
+			"name": "GitHub",
+			"category": "Tooling Setup",
+			"description": "GitHub is a code hosting and sharing platform. It's a good way to share code with others, and to collaborate on projects.",
+			"url": "https://docs.microsoft.com/en-gb/learn/modules/introduction-to-github-visual-studio-code/",
+			"prereq": ["git", "vs-code"]
+		},
+		{
+			"name": "Windows Subsystem for Linux",
+			"category": "Tooling Setup",
+			"description": "Some code cannot be run on Microsoft Windows as it depends on custom functionality. This is a good way to run code written for Linux on Windows.",
+			"url": "https://docs.microsoft.com/en-us/learn/modules/get-started-with-windows-subsystem-for-linux/",
+			"prereq": []
+		},
+		{
+			"name": "StackOverflow",
+			"category": "Resources",
+			"description": "Probably the most helpful site for learning programming. Ask questions, and get answers; probably answer other questions as well.",
+			"url": "https://stackoverflow.com/",
+			"prereq": ["vs-code", "git"]
+		},
+		{
+			"name": "Heroku",
+			"category": "Resources",
+			"description": "Want a place to run and host your code ? Heroku allows you to create 'Dynos' which are lightweight containers that run your code, used mostly as a Platform-as-a-Service.",
+			"url": "https://www.heroku.com/",
+			"prereq": ["vs-code", "git", "github"]
+		},
+		{
+			"name": "Railway",
+			"category": "Resources",
+			"description": "`Bring your code, we'll handle the rest` - Another place to store and run code.",
+			"url": "https://www.railway.app/",
+			"prereq": ["vs-code", "git", "github"]
+		}
+	]
+}

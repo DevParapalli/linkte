@@ -7,20 +7,18 @@
 
 	let SucessShown = false;
 	let transaction_id = '';
-	let message_value = "";
 	// Handle Form
 	let data = {
-			title: '',
-			subtitle: '',
-			message: ''
-		};
+		title: '',
+		subtitle: '',
+		message: ''
+	};
 	// populate using previous data
 	onMount(async () => {
 		let response = await fetch(`https://dweet.io:443/get/latest/dweet/for/${variables.DWEET_KEY}`);
 		let _data = await response.json();
-		data = _data.with[0].content
-
-	})
+		data = _data.with[0].content;
+	});
 	async function handle_form_submit(event) {
 		const form_data = new FormData(event.target);
 
@@ -66,7 +64,7 @@
 					<div class="relative">
 						<label for="title" class="leading-7 text-sm text-gray-400">Title</label>
 						<input
-						bind:value={data.title}
+							bind:value={data.title}
 							type="text"
 							id="title"
 							name="title"
@@ -88,34 +86,24 @@
 					<div class="relative">
 						<label for="message" class="leading-7 text-sm text-gray-400">Message</label>
 						<div class="">
-							<Editor 
-							conf="{
-							{
-								skin: 'oxide-dark', 
-								content_css: 'dark', 
-								menubar: false, 
-								toolbar: 'undo redo | bold italic | link image', 
-								plugins: 'autolink lists link image print preview',
-								// Link Plugin conf
-								default_link_target: '_blank',
-								//link_assume_external_targets: 'https',
-								link_default_protocol: 'https',
-								default_link_class: 'text-green-500 hover:underline hover:text-green-400 px-2 mx-2',
-								link_class_list: [
-									{title: 'None', value: 'text-green-500 hover:underline hover:text-green-400 px-2 mx-2'},
-									
-								]
-
-
-							}}"
-							bind:value="{data.message}" 
-							apiKey="{variables.TINYMCE_KEY}"
-							/>
+							<Editor
+								conf={{
+									skin: 'oxide-dark',
+									content_css: 'dark',
+									menubar: false,
+									toolbar: 'undo redo | bold italic | link image',
+									plugins: 'autolink lists link image print preview',
+									// Link Plugin conf
+									default_link_target: '_blank',
+									//link_assume_external_targets: 'https',
+									link_default_protocol: 'https',
+									default_link_class: 'text-green-500 hover:underline hover:text-green-400 px-2 mx-2',
+									link_class_list: [{ title: 'None', value: 'text-green-500 hover:underline hover:text-green-400 px-2 mx-2' }]
+								}}
+								bind:value={data.message}
+								apiKey={variables.TINYMCE_KEY} />
 						</div>
-						<textarea
-							id="message"
-							name="message"
-							class="hidden invisible" bind:value="{data.message}"/>
+						<textarea id="message" name="message" class="hidden invisible" bind:value={data.message} />
 					</div>
 				</div>
 				<div class="p-2 w-full">

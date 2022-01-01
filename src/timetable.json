@@ -1,199 +1,199 @@
 {
-    "title": "Time Table",
-    "description": "Page Description",
-    "days": [
-        {
-            "day": "Sunday",
-            "display": false,
-            "subjects": []
-        },
-        {
-            "day": "Monday",
-            "display": true,
-            "subjects": [
-                {
-                    "subject": "Math",
-                    "start_time": "08:30",
-                    "end_time": "10:30",
-                    "instructor": "DaBaby"
-                },
-                {
-                    "subject": "Math",
-                    "start_time": "10:30",
-                    "end_time": "12:30",
-                    "instructor": "DaBaby2"
-                },
-                {
-                    "subject": "Math",
-                    "start_time": "12:30",
-                    "end_time": "14:30",
-                    "instructor": "DaBaby3"
-                },
-                {
-                    "subject": "Math",
-                    "start_time": "14:30",
-                    "end_time": "15:30",
-                    "instructor": "DaBaby4"
-                },
-                {
-                    "subject": "Math",
-                    "start_time": "15:30",
-                    "end_time": "16:30",
-                    "instructor": "DaBaby5"
-                }
-            ]
-        },
-        {
-            "day": "Tuesday",
-            "display": true,
-            "subjects": [
-                {
-                    "subject": "Math",
-                    "start_time": "08:30",
-                    "end_time": "10:30",
-                    "instructor": "DaBaby"
-                },
-                {
-                    "subject": "Math",
-                    "start_time": "10:30",
-                    "end_time": "12:30",
-                    "instructor": "DaBaby2"
-                },
-                {
-                    "subject": "Math",
-                    "start_time": "12:30",
-                    "end_time": "14:30",
-                    "instructor": "DaBaby3"
-                },
-                {
-                    "subject": "Math",
-                    "start_time": "14:30",
-                    "end_time": "15:30",
-                    "instructor": "DaBaby4"
-                },
-                {
-                    "subject": "Math",
-                    "start_time": "15:30",
-                    "end_time": "16:30",
-                    "instructor": "DaBaby5"
-                }
-            ]
-        },
-        {
-            "day": "Wednesday",
-            "display": true,
-            "subjects": [
-                {
-                    "subject": "Math",
-                    "start_time": "08:30",
-                    "end_time": "10:30",
-                    "instructor": "DaBaby"
-                },
-                {
-                    "subject": "Math",
-                    "start_time": "10:30",
-                    "end_time": "12:30",
-                    "instructor": "DaBaby2"
-                },
-                {
-                    "subject": "Math",
-                    "start_time": "12:30",
-                    "end_time": "14:30",
-                    "instructor": "DaBaby3"
-                },
-                {
-                    "subject": "Math",
-                    "start_time": "14:30",
-                    "end_time": "15:30",
-                    "instructor": "DaBaby4"
-                },
-                {
-                    "subject": "Math",
-                    "start_time": "15:30",
-                    "end_time": "16:30",
-                    "instructor": "DaBaby5"
-                }
-            ]
-        },
-        {
-            "day": "Thursday",
-            "display": true,
-            "subjects": [
-                {
-                    "subject": "Math",
-                    "start_time": "08:30",
-                    "end_time": "10:30",
-                    "instructor": "DaBaby"
-                },
-                {
-                    "subject": "Math",
-                    "start_time": "10:30",
-                    "end_time": "12:30",
-                    "instructor": "DaBaby2"
-                },
-                {
-                    "subject": "Math",
-                    "start_time": "12:30",
-                    "end_time": "14:30",
-                    "instructor": "DaBaby3"
-                },
-                {
-                    "subject": "Math",
-                    "start_time": "14:30",
-                    "end_time": "15:30",
-                    "instructor": "DaBaby4"
-                },
-                {
-                    "subject": "Math",
-                    "start_time": "15:30",
-                    "end_time": "16:30",
-                    "instructor": "DaBaby5"
-                }
-            ]
-        },
-        {
-            "day": "Friday",
-            "display": true,
-            "subjects": [
-                {
-                    "subject": "Math",
-                    "start_time": "08:30",
-                    "end_time": "10:30",
-                    "instructor": "DaBaby"
-                },
-                {
-                    "subject": "Math",
-                    "start_time": "10:30",
-                    "end_time": "12:30",
-                    "instructor": "DaBaby2"
-                },
-                {
-                    "subject": "Math",
-                    "start_time": "12:30",
-                    "end_time": "14:30",
-                    "instructor": "DaBaby3"
-                },
-                {
-                    "subject": "Math",
-                    "start_time": "14:30",
-                    "end_time": "15:30",
-                    "instructor": "DaBaby4"
-                },
-                {
-                    "subject": "Math",
-                    "start_time": "15:30",
-                    "end_time": "16:30",
-                    "instructor": "DaBaby5"
-                }
-            ]
-        },
-        {
-            "day": "Saturday",
-            "display": false,
-            "subjects": []
-        }
-    ],
-    "//comment_01": "Sunday is 0.",
-    "//comment_02": "The subjects are ordered from the first subject to the last subject. The order is significant",
-    "//comment_03": "The start_time and end_time are in the format HH:MM, HH being in 24-hour format."
+	"title": "Time Table",
+	"description": "Page Description",
+	"days": [
+		{
+			"day": "Sunday",
+			"display": false,
+			"subjects": []
+		},
+		{
+			"day": "Monday",
+			"display": true,
+			"subjects": [
+				{
+					"subject": "Math",
+					"start_time": "08:30",
+					"end_time": "10:30",
+					"instructor": "DaBaby"
+				},
+				{
+					"subject": "Math",
+					"start_time": "10:30",
+					"end_time": "12:30",
+					"instructor": "DaBaby2"
+				},
+				{
+					"subject": "Math",
+					"start_time": "12:30",
+					"end_time": "14:30",
+					"instructor": "DaBaby3"
+				},
+				{
+					"subject": "Math",
+					"start_time": "14:30",
+					"end_time": "15:30",
+					"instructor": "DaBaby4"
+				},
+				{
+					"subject": "Math",
+					"start_time": "15:30",
+					"end_time": "16:30",
+					"instructor": "DaBaby5"
+				}
+			]
+		},
+		{
+			"day": "Tuesday",
+			"display": true,
+			"subjects": [
+				{
+					"subject": "Math",
+					"start_time": "08:30",
+					"end_time": "10:30",
+					"instructor": "DaBaby"
+				},
+				{
+					"subject": "Math",
+					"start_time": "10:30",
+					"end_time": "12:30",
+					"instructor": "DaBaby2"
+				},
+				{
+					"subject": "Math",
+					"start_time": "12:30",
+					"end_time": "14:30",
+					"instructor": "DaBaby3"
+				},
+				{
+					"subject": "Math",
+					"start_time": "14:30",
+					"end_time": "15:30",
+					"instructor": "DaBaby4"
+				},
+				{
+					"subject": "Math",
+					"start_time": "15:30",
+					"end_time": "16:30",
+					"instructor": "DaBaby5"
+				}
+			]
+		},
+		{
+			"day": "Wednesday",
+			"display": true,
+			"subjects": [
+				{
+					"subject": "Math",
+					"start_time": "08:30",
+					"end_time": "10:30",
+					"instructor": "DaBaby"
+				},
+				{
+					"subject": "Math",
+					"start_time": "10:30",
+					"end_time": "12:30",
+					"instructor": "DaBaby2"
+				},
+				{
+					"subject": "Math",
+					"start_time": "12:30",
+					"end_time": "14:30",
+					"instructor": "DaBaby3"
+				},
+				{
+					"subject": "Math",
+					"start_time": "14:30",
+					"end_time": "15:30",
+					"instructor": "DaBaby4"
+				},
+				{
+					"subject": "Math",
+					"start_time": "15:30",
+					"end_time": "16:30",
+					"instructor": "DaBaby5"
+				}
+			]
+		},
+		{
+			"day": "Thursday",
+			"display": true,
+			"subjects": [
+				{
+					"subject": "Math",
+					"start_time": "08:30",
+					"end_time": "10:30",
+					"instructor": "DaBaby"
+				},
+				{
+					"subject": "Math",
+					"start_time": "10:30",
+					"end_time": "12:30",
+					"instructor": "DaBaby2"
+				},
+				{
+					"subject": "Math",
+					"start_time": "12:30",
+					"end_time": "14:30",
+					"instructor": "DaBaby3"
+				},
+				{
+					"subject": "Math",
+					"start_time": "14:30",
+					"end_time": "15:30",
+					"instructor": "DaBaby4"
+				},
+				{
+					"subject": "Math",
+					"start_time": "15:30",
+					"end_time": "16:30",
+					"instructor": "DaBaby5"
+				}
+			]
+		},
+		{
+			"day": "Friday",
+			"display": true,
+			"subjects": [
+				{
+					"subject": "Math",
+					"start_time": "08:30",
+					"end_time": "10:30",
+					"instructor": "DaBaby"
+				},
+				{
+					"subject": "Math",
+					"start_time": "10:30",
+					"end_time": "12:30",
+					"instructor": "DaBaby2"
+				},
+				{
+					"subject": "Math",
+					"start_time": "12:30",
+					"end_time": "14:30",
+					"instructor": "DaBaby3"
+				},
+				{
+					"subject": "Math",
+					"start_time": "14:30",
+					"end_time": "15:30",
+					"instructor": "DaBaby4"
+				},
+				{
+					"subject": "Math",
+					"start_time": "15:30",
+					"end_time": "16:30",
+					"instructor": "DaBaby5"
+				}
+			]
+		},
+		{
+			"day": "Saturday",
+			"display": false,
+			"subjects": []
+		}
+	],
+	"//comment_01": "Sunday is 0.",
+	"//comment_02": "The subjects are ordered from the first subject to the last subject. The order is significant",
+	"//comment_03": "The start_time and end_time are in the format HH:MM, HH being in 24-hour format."
 }

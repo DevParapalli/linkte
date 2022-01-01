@@ -4,7 +4,7 @@
 	export let link_data: Link = default_link;
 </script>
 
-<a class="p-2 rounded-xl hover:bg-gray-800 w-full transition-colors duration-150" href={link_data.href} target="_blank" title={link_data.description}>
+<a class="p-2 rounded-xl hover:bg-gray-800 w-full transition-colors duration-150" sveltekit:prefetch href={link_data.href} target="_blank" title={link_data.description}>
 	<span class="items-center bg-gray-800 h-4 inline-flex justify-center mr-2 rounded-full text-green-400 w-4">
 		<svg
 			aria-hidden="true"

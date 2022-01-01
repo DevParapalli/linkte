@@ -11,6 +11,7 @@
 * {
 	scrollbar-width: thin;
 	scrollbar-color: #374151 #111827;
+	scroll-behavior: smooth;
 }
 ::-webkit-scrollbar {
 	@apply w-2;
@@ -20,11 +21,11 @@
 }
 
 html {
-	scroll-behaviour: smooth;
-	@apply select-none
+	scroll-behavior: smooth;
+	@apply select-none;
 }
 
 body {
 	text-rendering: optimizeSpeed;
-	@apply antialiased 
+	@apply antialiased;
 }

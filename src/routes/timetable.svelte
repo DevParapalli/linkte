@@ -7,14 +7,13 @@
 	onMount(() => {
 		let time_update = () => {
 			current_time = new Date();
-		}
+		};
 		let interval = setInterval(time_update, 1000);
 		return () => {
 			clearInterval(interval);
-		}
-	})
+		};
+	});
 	let current_timetable = timetable.days[current_time.getDay()];
-
 </script>
 
 <section class="text-gray-400 bg-gray-900 body-font">
@@ -26,32 +25,29 @@
 					', ' +
 					current_time.toLocaleDateString('en-IN', { day: '2-digit', month: 'long', year: 'numeric' }) +
 					' | ' +
-					current_time.toLocaleTimeString('en-IN', { hour: '2-digit', minute: '2-digit', second: '2-digit',hour12: false })}
+					current_time.toLocaleTimeString('en-IN', { hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: false })}
 			</p>
 		</div>
 		<div class="lg:w-2/3 w-full mx-auto overflow-auto">
 			{#if current_timetable.display}
-			<table class="table-auto w-full text-left whitespace-no-wrap">
-				<thead>
-					<tr>
-						<th class="px-4 py-3 title-font tracking-wider font-medium text-white text-sm bg-gray-800 rounded-tl rounded-bl">Subject</th>
-						<th class="px-4 py-3 title-font tracking-wider font-medium text-white text-sm bg-gray-800">Start Time</th>
-						<th class="px-4 py-3 title-font tracking-wider font-medium text-white text-sm bg-gray-800">End Time</th>
-						<th class="px-4 py-3 title-font tracking-wider font-medium text-white text-sm bg-gray-800">Instructor</th>
-					</tr>
-				</thead>
-				<tbody>
-					{#each current_timetable.subjects as item}
-						<TimeTableItem data={item} time={current_time} />
-					{/each}
-				</tbody>
-			</table>
+				<table class="table-auto w-full text-left whitespace-no-wrap">
+					<thead>
+						<tr>
+							<th class="px-4 py-3 title-font tracking-wider font-medium text-white text-sm bg-gray-800 rounded-tl rounded-bl">Subject</th>
+							<th class="px-4 py-3 title-font tracking-wider font-medium text-white text-sm bg-gray-800">Start Time</th>
+							<th class="px-4 py-3 title-font tracking-wider font-medium text-white text-sm bg-gray-800">End Time</th>
+							<th class="px-4 py-3 title-font tracking-wider font-medium text-white text-sm bg-gray-800">Instructor</th>
+						</tr>
+					</thead>
+					<tbody>
+						{#each current_timetable.subjects as item}
+							<TimeTableItem data={item} time={current_time} />
+						{/each}
+					</tbody>
+				</table>
 			{:else}
-			<h1 class="text-2xl text-center font-medium title-font text-white">There are no classes scheduled today. Enjoy! :)</h1>
-			
+				<h1 class="text-2xl text-center font-medium title-font text-white">There are no classes scheduled today. Enjoy! :)</h1>
 			{/if}
-			
-
 		</div>
 	</div>
 </section>
@@ -60,13 +56,11 @@
 	<div class="container px-5 py-24 mx-auto">
 		<div class="flex flex-wrap justify-between md:text-left text-center -mb-10 -mx-4">
 			{#each timetable.days as day}
-				 {#if day.display}
-				 	<TimeTableList data={day} />
-				 {:else}
-					  <!-- Blank for non display ones -->
-				 {/if}
-			
-
+				{#if day.display}
+					<TimeTableList data={day} />
+				{:else}
+					<!-- Blank for non display ones -->
+				{/if}
 			{/each}
 		</div>
 	</div>

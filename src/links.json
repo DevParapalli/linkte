@@ -7,6 +7,11 @@
 			"description": "Links for people from GCOEN",
 			"links": [
 				{
+					"title": "Guides [CSE]",
+					"description": "Links and stuff for installing and working with programming tools",
+					"href": "/guides"
+				},
+				{
 					"title": "CSE TimeTable",
 					"description": "** Not Yet Functional **",
 					"href": "/timetable"
@@ -22,7 +27,7 @@
 					"href": "https://drive.google.com/drive/folders/1b9YRfnAU0pKXDZFYFWT0BIHBEfvefQow?usp=sharing"
 				},
 				{
-					"title":"Other Books",
+					"title": "Other Books",
 					"description": "These are some other books that I found over the interwebs",
 					"href": "https://drive.google.com/drive/folders/1UdYX4k9CMmQ3CeE1lkEYFWifKJ1jdgy1?usp=sharing"
 				},
