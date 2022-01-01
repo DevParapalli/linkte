@@ -19,13 +19,16 @@
 <section class="text-gray-400 bg-gray-900 body-font">
 	<div class="container px-5 pt-14 pb-auto mx-auto">
 		<div class="flex flex-col text-center w-full mb-20">
+			<h2 class="text-xs text-green-400 tracking-widest font-medium title-font mb-1 header-time">
+				{current_time.toLocaleDateString('en-IN', { weekday: 'long' }) +
+				', ' +
+				current_time.toLocaleDateString('en-IN', { day: '2-digit', month: 'long', year: 'numeric' }) +
+				' | ' +
+				current_time.toLocaleTimeString('en-IN', { hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: false })}
+			</h2>
 			<h1 class="sm:text-4xl text-3xl font-medium title-font mb-2 text-white">{timetable.title}</h1>
 			<p class="lg:w-2/3 mx-auto leading-relaxed text-base">
-				{current_time.toLocaleDateString('en-IN', { weekday: 'long' }) +
-					', ' +
-					current_time.toLocaleDateString('en-IN', { day: '2-digit', month: 'long', year: 'numeric' }) +
-					' | ' +
-					current_time.toLocaleTimeString('en-IN', { hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: false })}
+				{@html timetable.description}
 			</p>
 		</div>
 		<div class="lg:w-2/3 w-full mx-auto overflow-auto">

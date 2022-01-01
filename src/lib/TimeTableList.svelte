@@ -24,7 +24,7 @@
 	<div class="list-none mb-10 ">
 		{#each data.subjects as subject}
 			<li>
-				<span class="text-gray-400">{subject.subject}</span>
+				<span class="text-gray-400">{@html subject.subject}</span>
 			</li>
 		{/each}
 	</div>
