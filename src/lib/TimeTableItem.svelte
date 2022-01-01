@@ -22,8 +22,8 @@
 </script>
 
 <tr class={active ? 'bg-gray-600 text-white border-none' : ''}>
-	<td class="border-t-2 border-b-2 border-gray-800 px-4 py-3 text-lg ">{data.subject}</td>
-	<td class="border-t-2 border-b-2 border-gray-800 px-4 py-3">{data.start_time}</td>
-	<td class="border-t-2 border-b-2 border-gray-800 px-4 py-3">{data.end_time}</td>
-	<td class="border-t-2 border-b-2 border-gray-800 px-4 py-3">{data.instructor}</td>
+	<td class="border-t-2 border-b-2 border-gray-800 px-4 py-3 text-lg ">{@html data.subject}</td>
+	<td class="border-t-2 border-b-2 border-gray-800 px-4 py-3">{@html data.start_time}</td>
+	<td class="border-t-2 border-b-2 border-gray-800 px-4 py-3">{@html data.end_time}</td>
+	<td class="border-t-2 border-b-2 border-gray-800 px-4 py-3">{@html data.instructor}</td>
 </tr>
