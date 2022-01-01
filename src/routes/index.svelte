@@ -12,14 +12,15 @@
 	let data = {
 		title: 'SOME TITLE',
 		subtitle: 'SOME SUBTITLE',
-		message: 'SOME MESSAGE'
+		message: 'SOME MESSAGE',
+		visible: "off",
 	};
 	onMount(async () => {
 		let response = await fetch(`https://dweet.io:443/get/latest/dweet/for/${variables.DWEET_KEY}`);
 		let _data = await response.json();
 		//console.log(_data);
 		data = _data.with[0].content;
-		alert_ready = true;
+		alert_ready = data.visible == "on";
 	});
 </script>
 

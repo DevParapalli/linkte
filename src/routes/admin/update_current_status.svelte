@@ -11,7 +11,8 @@
 	let data = {
 		title: '',
 		subtitle: '',
-		message: ''
+		message: '', 
+		visible: 'off'
 	};
 	// populate using previous data
 	onMount(async () => {
@@ -25,7 +26,21 @@
 		for (let field of form_data) {
 			const [key, value] = field;
 			data[key] = value;
+			
 		}
+		// Checking for Checkbox
+		for (let field of form_data) {
+			const [key, value] = field;
+			if (key == 'visible') {
+				data['visible'] = 'on';
+			}
+			else {
+				data['visible'] = 'off';
+			}
+			
+		}
+
+		console.log(data)
 		if (data.title == '' || data.subtitle == '' || data.message == '') {
 			return alert('Please fill out all fields');
 		}
@@ -41,9 +56,9 @@
 
 		SucessShown = true;
 		//console.log(data)
-		setTimeout(() => {
-			goto('/admin');
-		}, 2000);
+		//setTimeout(() => {
+		//	goto('/admin');
+		//}, 2000);
 	}
 </script>
 
@@ -106,7 +121,12 @@
 						<textarea id="message" name="message" class="hidden invisible" bind:value={data.message} />
 					</div>
 				</div>
-				<div class="p-2 w-full">
+				<div class="p-2 w-full align-middle">
+					<label for="visible" class="text-white pr-2">
+						<input type="checkbox" class="form-checkbox rounded h-4 w-4 -translate-y-[0.125rem] text-green-600 bg-green-600" name="visible" id="visible" />
+						Visible ?
+					</label>
+
 					<button class="flex mx-auto text-white bg-green-500 border-0 py-2 px-8 focus:outline-none hover:bg-green-600 rounded text-xl">Submit</button>
 				</div>
 			</form>
