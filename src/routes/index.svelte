@@ -1,3 +1,7 @@
+<script context="module">
+	export const prerender = true;
+</script>
+
 <script lang="ts">
 	import IndexAlert from '$lib/IndexAlert.svelte';
 	import LinkSection from '$lib/LinkSection.svelte';

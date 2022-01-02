@@ -1,4 +1,5 @@
 <script>
+	export let index = 0;
 	export let data = {
 		day: 'Monday',
 		display: true,
@@ -20,7 +21,7 @@
 </script>
 
 <div class="lg:w-1/6 md:w-1/2 w-full px-4">
-	<h2 class="title-font font-medium text-white tracking-widest text-sm mb-3">{data.day}</h2>
+	<a sveltekit:prefetch href="/timetable?day={index}" class="title-font font-medium text-white tracking-widest text-sm mb-3 hover:underline">{data.day}</a>
 	<div class="list-none mb-10 ">
 		{#each data.subjects as subject}
 			<li>

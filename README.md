@@ -1,50 +1,16 @@
 # Linkte
 
-Everything to get your linktr.ee Clone up and running.
+This is a personal project written with SvelteKit and TailwindCSS. This is a culmination of various tidbits I have found useful. It may even contain certain tools I have found useful.
 
-## Creating your project
+#### Want to make your own ?
 
-> Note: You need `Node 17` and `Yarn` to build this project. Use `npm install -g yarn` to install it.
+```plaintext
+I assume you know your way around a yarn project.
+$ npx --yes degit DevParapalli/linkte
+$ cd linkte
 
-```bash
-# Clone this repository.
-npx --yes degit DevParapalli/linkte
-cd linkte
+Read through the .svelte files, the .json files and try modifying them.
+The app is configured to deploy on Netlify. Modify the adapter in the svelte.config.js file.
 
-# Install deps
-yarn
-
-# create .env file
-touch .env
-## Now add DWEET_KEY="<your_key>" to this file.
-
-# Enter development mode.
-yarn dev
-
-# To build application
-yarn build
-# To preview the built app
-yarn preview
+Happy Hacking!
 ```
-
-## Porting to other platforms
-
-The application is built using [SvelteKit](https://kit.svelte.dev/). You only need to install and change the adapter in `svelte.config.js`. Check the [SvelteKit documentation](https://kit.svelte.dev/docs#adapters) for more information.
-
-## Adding your own links
-
-The file `src/links.json` contains the list of links. You can add your own links by editing this file.
-
-```bash
-cp src/links.json src/links.json.bak
-```
-
-Now edit the links.json file, make sure to confirm to format of the file.
-
-## Changing the styles
-
-The site is written using [Tailwind CSS](https://tailwindcss.com/). You will have to change the styles in each file.
-
-## Previewing your own links.json
-
-Goto `https://devparapalli.netlify.app/external?file=<your_hosted_file>.json` to preview
