@@ -27,7 +27,7 @@
 				<a
 					sveltekit:prefetch
 					href="https://github.com/DevParapalli/linkte"
-					class="text-gray-500 ml-1 hover:text-gray-200 transition-colors duration-300"
+					class="hidden text-gray-500 ml-1 hover:text-gray-200 transition-colors duration-300"
 					target="_blank"
 					rel="noopener noreferrer">Create your own here</a>
 			</p>

@@ -84,14 +84,14 @@
 			"name": "Heroku",
 			"category": "Resources",
 			"description": "Want a place to run and host your code ? Heroku allows you to create 'Dynos' which are lightweight containers that run your code, used mostly as a Platform-as-a-Service.",
-			"url": "https://www.heroku.com/",
+			"url": "https://devcenter.heroku.com/",
 			"prereq": ["vs-code", "git", "github"]
 		},
 		{
 			"name": "Railway",
 			"category": "Resources",
 			"description": "`Bring your code, we'll handle the rest` - Another place to store and run code.",
-			"url": "https://www.railway.app/",
+			"url": "https://docs.railway.app/",
 			"prereq": ["vs-code", "git", "github"]
 		}
 	]

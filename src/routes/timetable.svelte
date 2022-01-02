@@ -60,7 +60,7 @@
 					<thead>
 						<tr>
 							<th class="px-4 py-3 title-font tracking-wider font-extrabold text-white text-sm  bg-gray-800 rounded-tl rounded-bl"
-								>Time Table for {current_timetable.day}</th>
+								>Subjects</th>
 							<th class="px-4 py-3 title-font tracking-wider font-medium text-white text-sm bg-gray-800">Start Time</th>
 							<th class="px-4 py-3 title-font tracking-wider font-medium text-white text-sm bg-gray-800">End Time</th>
 							<th class="px-4 py-3 title-font tracking-wider font-medium text-white text-sm bg-gray-800">Instructor</th>
