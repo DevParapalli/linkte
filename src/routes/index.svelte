@@ -18,7 +18,6 @@
 	onMount(async () => {
 		let response = await fetch(`https://dweet.io:443/get/latest/dweet/for/${variables.DWEET_KEY}`);
 		let _data = await response.json();
-		//console.log(_data);
 		data = _data.with[0].content;
 		alert_ready = data.visible == "on";
 	});
