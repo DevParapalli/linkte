@@ -15,31 +15,31 @@
 					"subject": "Math 1 [111]",
 					"start_time": "10:30",
 					"end_time": "11:30",
-					"instructor": "1"
+					"instructor": "N Raut"
 				},
 				{
 					"subject": "Applied Physics [111]",
 					"start_time": "11:30",
 					"end_time": "12:30",
-					"instructor": "2"
+					"instructor": "J B Randhawa"
 				},
 				{
 					"subject": "Basic Civil [111]",
 					"start_time": "13:00",
 					"end_time": "14:00",
-					"instructor": "3"
+					"instructor": "Harsha Raut"
 				},
 				{
 					"subject": "Basic Mechanical [111]",
 					"start_time": "14:00",
 					"end_time": "15:00",
-					"instructor": "4"
+					"instructor": "Harsha Raut"
 				},
 				{
 					"subject": "Energy and Environment [111]",
 					"start_time": "15:15",
 					"end_time": "16:15",
-					"instructor": "5"
+					"instructor": "Dr. Snehal Chavan"
 				}
 			]
 		},
@@ -57,13 +57,13 @@
 					"subject": "Energy and Environment [23]",
 					"start_time": "13:00",
 					"end_time": "14:00",
-					"instructor": "2"
+					"instructor": "Dr. Snehal Chavan"
 				},
 				{
 					"subject": "Math 1 [23]",
 					"start_time": "14:00",
 					"end_time": "15:00",
-					"instructor": "3"
+					"instructor": "N Raut"
 				},
 				{
 					"subject": "Communication Skills [23]",
@@ -87,7 +87,7 @@
 					"subject": "Applied Physics [23]",
 					"start_time": "11:30",
 					"end_time": "12:30",
-					"instructor": "1"
+					"instructor": "J B Randhawa"
 				},
 				{
 					"subject": "Engineering Graphics (Practical)",
@@ -99,13 +99,13 @@
 					"subject": "(A: Applied Physics) <br /> (B: Energy and Environment) <br /> (C: Communication Skills)",
 					"start_time": "15:15",
 					"end_time": "17:15",
-					"instructor": "3"
+					"instructor": "J B Randhawa"
 				},
 				{
 					"subject": "(A: Applied Physics)",
 					"start_time": "17:15",
 					"end_time": "18:15",
-					"instructor": "4"
+					"instructor": "J B Randhawa"
 				}
 			]
 		},
@@ -117,37 +117,37 @@
 					"subject": "Math 1 [111]",
 					"start_time": "10:30",
 					"end_time": "11:30",
-					"instructor": "1"
+					"instructor": "N Raut"
 				},
 				{
 					"subject": "Applied Physics [111]",
 					"start_time": "11:30",
 					"end_time": "12:30",
-					"instructor": "2"
+					"instructor": "J B Randhawa"
 				},
 				{
 					"subject": "Basic Civil [111]",
 					"start_time": "13:00",
 					"end_time": "14:00",
-					"instructor": "3"
+					"instructor": "Harsha Raut"
 				},
 				{
 					"subject": "Basic Mechanical [111]",
 					"start_time": "14:00",
 					"end_time": "15:00",
-					"instructor": "4"
+					"instructor": "Harsha Raut"
 				},
 				{
 					"subject": "(A: Communication Skills) <br /> (B: Applied Physics) <br /> (C: Energy and Environment)",
 					"start_time": "15:15",
 					"end_time": "17:15",
-					"instructor": "5"
+					"instructor": "J B Randhawa"
 				},
 				{
 					"subject": "(B: Applied Physics)",
 					"start_time": "17:15",
 					"end_time": "18:15",
-					"instructor": "4"
+					"instructor": "J B Randhawa"
 				}
 			]
 		},
@@ -159,19 +159,19 @@
 					"subject": "Applied Physics [111]",
 					"start_time": "10:30",
 					"end_time": "11:30",
-					"instructor": "1"
+					"instructor": "J B Randhawa"
 				},
 				{
 					"subject": "Math 1 [111]",
 					"start_time": "11:30",
 					"end_time": "12:30",
-					"instructor": "2"
+					"instructor": "N Raut"
 				},
 				{
 					"subject": "Energy and Environment [111]",
 					"start_time": "13:00",
 					"end_time": "14:00",
-					"instructor": "3"
+					"instructor": "Dr. Snehal Chavan"
 				},
 				{
 					"subject": "Communication Skills [111]",
@@ -183,13 +183,13 @@
 					"subject": "(A: Energy and Environment) <br /> (B: Communication Skills) <br /> (C: Applied Physics)",
 					"start_time": "15:15",
 					"end_time": "17:15",
-					"instructor": "5"
+					"instructor": "Dr. Snehal Chavan/J B Randhawa"
 				},
 				{
 					"subject": "(C: Applied Physics)",
 					"start_time": "17:15",
 					"end_time": "18:15",
-					"instructor": "5"
+					"instructor": "J B Randhawa"
 				}
 			]
 		},
