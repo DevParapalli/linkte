@@ -14,7 +14,9 @@
 			clearInterval(interval);
 		};
 	});
-	$: timetable_index = Number($page.url.searchParams.get('day')) || current_time.getDay();
+	// TODO: Refactor this to reduce the number of reactive stores
+	$: param_index = parseInt($page.url.searchParams.get('day'))
+	$: timetable_index = param_index || param_index === 0 ? param_index : current_time.getDay()
 	$: current_timetable = timetable.days[timetable_index];
 </script>
 
@@ -73,7 +75,7 @@
 					</tbody>
 				</table>
 			{:else}
-				<h1 class="text-2xl text-center font-medium title-font text-white">There are no classes scheduled today. Enjoy! :)</h1>
+				<h1 class="text-2xl text-center font-medium title-font text-white">There are no classes scheduled for {current_timetable.day}. Enjoy! :)</h1>
 			{/if}
 		</div>
 	</div>
