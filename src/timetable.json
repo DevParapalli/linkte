@@ -57,7 +57,7 @@
 					"subject": "Engineering Graphics (Practical)",
 					"start_time": "10:30",
 					"end_time": "12:30",
-					"instructor": "1"
+					"instructor": "Ajinkya Mude"
 				},
 				{
 					"subject": "Energy and Environment [23]",
@@ -69,13 +69,13 @@
 					"subject": "Communication Skills [23]",
 					"start_time": "15:15",
 					"end_time": "16:15",
-					"instructor": "4"
+					"instructor": "Rasika Joshi"
 				},
 				{
 					"subject": "Engineering Graphics [102]",
 					"start_time": "16:15",
 					"end_time": "17:15",
-					"instructor": "5"
+					"instructor": "Ajinkya Mude"
 				}
 			]
 		},
@@ -93,13 +93,13 @@
 					"subject": "Engineering Graphics (Practical)",
 					"start_time": "13:00",
 					"end_time": "15:00",
-					"instructor": "2"
+					"instructor": "Ajinkya Mude"
 				},
 				{
 					"subject": "(A: Applied Physics) <br /> (B: Energy and Environment) <br /> (C: Communication Skills)",
 					"start_time": "15:15",
 					"end_time": "17:15",
-					"instructor": "J B Randhawa"
+					"instructor": "J B Randhawa / Rasika Joshi"
 				},
 				{
 					"subject": "(A: Applied Physics)",
@@ -177,13 +177,13 @@
 					"subject": "Communication Skills [111]",
 					"start_time": "14:00",
 					"end_time": "15:00",
-					"instructor": "4"
+					"instructor": "Rasika Joshi"
 				},
 				{
 					"subject": "(A: Energy and Environment) <br /> (B: Communication Skills) <br /> (C: Applied Physics)",
 					"start_time": "15:15",
 					"end_time": "17:15",
-					"instructor": "Dr. Snehal Chavan/J B Randhawa"
+					"instructor": "Dr. Snehal Chavan/ Rasika Joshi / J B Randhawa"
 				},
 				{
 					"subject": "(C: Applied Physics)",
