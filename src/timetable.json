@@ -48,12 +48,6 @@
 			"display": true,
 			"subjects": [
 				{
-					"subject": "Math 1 [23] {Adjusted}",
-					"start_time": "09:30",
-					"end_time": "10:30",
-					"instructor": "N Raut"
-				},
-				{
 					"subject": "Engineering Graphics (Practical)",
 					"start_time": "10:30",
 					"end_time": "12:30",
@@ -64,6 +58,12 @@
 					"start_time": "13:00",
 					"end_time": "14:00",
 					"instructor": "Dr. Snehal Chavan"
+				},
+				{
+					"subject": "Math 1 [23]",
+					"start_time": "14:00",
+					"end_time": "15:00",
+					"instructor": "N Raut"
 				},
 				{
 					"subject": "Communication Skills [23]",
