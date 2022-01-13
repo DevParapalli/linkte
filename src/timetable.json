@@ -120,16 +120,16 @@
 					"instructor": "N Raut"
 				},
 				{
-					"subject": "Applied Physics [111]",
+					"subject": "Basic Civil [111]",
 					"start_time": "11:30",
 					"end_time": "12:30",
-					"instructor": "J B Randhawa"
+					"instructor": "Harsha Raut"
 				},
 				{
-					"subject": "Basic Civil [111]",
+					"subject": "Applied Physics [111]",
 					"start_time": "13:00",
 					"end_time": "14:00",
-					"instructor": "Harsha Raut"
+					"instructor": "J B Randhawa"
 				},
 				{
 					"subject": "Basic Mechanical [111]",
