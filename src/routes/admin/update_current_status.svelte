@@ -1,6 +1,5 @@
 <script lang="ts">
 	import SucessAlert from '$lib/AdminSucessAlert.svelte';
-	import { goto } from '$app/navigation';
 	import { variables } from '$lib/variables';
 	import Editor from '@tinymce/tinymce-svelte';
 	import { onMount } from 'svelte';
@@ -11,7 +10,7 @@
 	let data = {
 		title: '',
 		subtitle: '',
-		message: '', 
+		message: '',
 		visible: 'off'
 	};
 	// populate using previous data
@@ -26,21 +25,18 @@
 		for (let field of form_data) {
 			const [key, value] = field;
 			data[key] = value;
-			
 		}
 		// Checking for Checkbox
 		for (let field of form_data) {
-			const [key, value] = field;
+			const [key, _] = field;
 			if (key == 'visible') {
 				data['visible'] = 'on';
-			}
-			else {
+			} else {
 				data['visible'] = 'off';
 			}
-			
 		}
 
-		console.log(data)
+		console.log(data);
 		if (data.title == '' || data.subtitle == '' || data.message == '') {
 			return alert('Please fill out all fields');
 		}

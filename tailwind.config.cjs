@@ -8,7 +8,7 @@ const config = {
 		extend: {}
 	},
 
-	plugins: [forms, typography],
+	plugins: [forms, typography, require('daisyui')],
 	darkMode: 'class'
 };
 

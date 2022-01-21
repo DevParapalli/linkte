@@ -17,13 +17,13 @@
 		title: 'SOME TITLE',
 		subtitle: 'SOME SUBTITLE',
 		message: 'SOME MESSAGE',
-		visible: "off",
+		visible: 'off'
 	};
 	onMount(async () => {
 		let response = await fetch(`https://dweet.io:443/get/latest/dweet/for/${variables.DWEET_KEY}`);
 		let _data = await response.json();
 		data = _data.with[0].content;
-		alert_ready = data.visible == "on";
+		alert_ready = data.visible == 'on';
 	});
 </script>
 

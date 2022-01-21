@@ -15,8 +15,8 @@
 		};
 	});
 	// TODO: Refactor this to reduce the number of reactive stores
-	$: param_index = parseInt($page.url.searchParams.get('day'))
-	$: timetable_index = param_index || param_index === 0 ? param_index : current_time.getDay()
+	$: param_index = parseInt($page.url.searchParams.get('day'));
+	$: timetable_index = param_index || param_index === 0 ? param_index : current_time.getDay();
 	$: current_timetable = timetable.days[timetable_index];
 </script>
 
@@ -38,20 +38,39 @@
 		<div class="lg:w-2/3 w-full mx-auto overflow-auto">
 			<div class="flex flex-wrap flex-row w-full justify-between items-center mb-8">
 				{#if timetable_index !== 0}
-					<a href="/timetable?day={timetable_index - 1}" class="flex items-center justify-center text-white rounded-full h-8 w-8 bg-gray-800" >
-						<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-left"><polyline points="15 18 9 12 15 6"></polyline></svg>
+					<a href="/timetable?day={timetable_index - 1}" class="flex items-center justify-center text-white rounded-full h-8 w-8 bg-gray-800">
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							width="24"
+							height="24"
+							viewBox="0 0 24 24"
+							fill="none"
+							stroke="currentColor"
+							stroke-width="2"
+							stroke-linecap="round"
+							stroke-linejoin="round"
+							class="feather feather-chevron-left"><polyline points="15 18 9 12 15 6" /></svg>
 					</a>
 				{:else}
-					<span>
-					</span>
+					<span />
 				{/if}
 
-				<span class="text-bold text-base text-white " >
+				<span class="text-bold text-base text-white ">
 					{current_timetable.day}
 				</span>
 				{#if timetable_index !== 6}
 					<a href="/timetable?day={timetable_index + 1}" class="flex items-center justify-center text-white rounded-full h-8 w-8 bg-gray-800">
-						<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg>
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							width="24"
+							height="24"
+							viewBox="0 0 24 24"
+							fill="none"
+							stroke="currentColor"
+							stroke-width="2"
+							stroke-linecap="round"
+							stroke-linejoin="round"
+							class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6" /></svg>
 					</a>
 				{:else}
 					<span />
@@ -61,8 +80,7 @@
 				<table class="table-auto w-full text-left whitespace-no-wrap">
 					<thead>
 						<tr>
-							<th class="px-4 py-3 title-font tracking-wider font-extrabold text-white text-sm  bg-gray-800 rounded-tl rounded-bl"
-								>Subjects</th>
+							<th class="px-4 py-3 title-font tracking-wider font-extrabold text-white text-sm  bg-gray-800 rounded-tl rounded-bl">Subjects</th>
 							<th class="px-4 py-3 title-font tracking-wider font-medium text-white text-sm bg-gray-800">Start Time</th>
 							<th class="px-4 py-3 title-font tracking-wider font-medium text-white text-sm bg-gray-800">End Time</th>
 							<th class="px-4 py-3 title-font tracking-wider font-medium text-white text-sm bg-gray-800">Instructor</th>
