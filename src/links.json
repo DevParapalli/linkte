@@ -89,6 +89,17 @@
 			]
 		},
 		{
+			"title": "Tools",
+			"description": "Links for people from other walks of life.",
+			"links": [
+				{
+					"title": "Video Player",
+					"description": "Play Local Video in a tab.",
+					"href": "/video"
+				}
+			]
+		},
+		{
 			"title": "Projects",
 			"description": "Links for people from other walks of life.",
 			"links": [

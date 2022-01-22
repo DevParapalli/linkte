@@ -2,7 +2,7 @@
 	import { page } from '$app/stores';
 
 	import { Plyr } from 'svelte-plyr';
-	let video_id = $page.url.searchParams.get('src');
+	let video_id = $page.url.searchParams.get('src') || 'dQw4w9WgXcQ';
 </script>
 
 <div class="bg-gray-900 w-[100vw] h-[100vh]">

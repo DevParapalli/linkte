@@ -24,11 +24,17 @@
 		// TS Method 1 of Typecasting
 		let raw_video = (<HTMLInputElement>event.target).value;
 		let rx = /^.*(?:(?:youtu\.be\/|v\/|vi\/|u\/\w\/|embed\/)|(?:(?:watch)?\?v(?:i)?=|\&v(?:i)?=))([^#\&\?]*).*/gm;
-		let res = rx.exec(raw_video);
-		if (dev) {
-			console.log(res);
+		if (raw_video.length == 11) {
+			// Case for when someone directly inputs video id
+			video_location = raw_video;
+			return;
+		} else {
+			let res = rx.exec(raw_video);
+			if (dev) {
+				console.log(res);
+			}
+			video_location = res[1];
 		}
-		video_location = res[1];
 	}
 
 	function handle_file_change(event: Event) {
@@ -89,7 +95,7 @@
 				<div class="p-2 w-1/2">
 					{#if is_yt}
 						<div class="relative">
-							<label for="src" class="leading-7 text-sm text-gray-400">Video URL</label>
+							<label for="src" class="leading-7 text-sm text-gray-400">Video URL / ID</label>
 							<input
 								bind:value={raw_location}
 								on:change={handle_input_change}
