@@ -21,5 +21,5 @@
 				fill="currentColor" />
 		</svg>
 	</span>
-	{link_data.title}
+	{@html link_data.title}
 </a>

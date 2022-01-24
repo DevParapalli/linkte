@@ -87,8 +87,8 @@
 							name="video-type"
 							id="type"
 							class="w-full bg-gray-800 bg-opacity-40 rounded border border-gray-700 hover:border-green-500 hover:bg-gray-900 focus:border-green-500 focus:bg-gray-900 focus:ring-2 focus:ring-green-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
-							<option value="youtube">YouTube</option>
 							<option default value="local">Local Video</option>
+							<option value="youtube">YouTube</option>
 						</select>
 					</div>
 				</div>

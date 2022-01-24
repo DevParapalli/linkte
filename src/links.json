@@ -7,7 +7,7 @@
 			"description": "Links for people from GCOEN",
 			"links": [
 				{
-					"title": "Guides [CSE]",
+					"title": "[CSE] Guides",
 					"description": "Links and stuff for installing and working with programming tools",
 					"href": "/guides"
 				},
@@ -47,37 +47,42 @@
 					"href": "https://forms.gle/5SCYT6q4iZTzAeUcA"
 				},
 				{
-					"title": "Maths-1 Google Classroom (CSE Only)",
+					"title": "[CSE] Maths-1 Google Classroom",
 					"description": "Rita Raut",
 					"href": "https://classroom.google.com/c/NDQ2MDU0MjQyMjU1?cjc=dmw4nwm"
 				},
 				{
-					"title": "CS Google Classroom (CSE Only)",
+					"title": "[CSE] CS Google Classroom",
 					"description": "Rasika Joshi",
 					"href": "https://classroom.google.com/c/NDUwNzQ1MTEyNjQz?cjc=45oidqc"
 				},
 				{
-					"title": "EG Google Classroom (CSE Only)",
+					"title": "[CSE] EG Google Classroom",
 					"description": "Ajinkya Mude",
-					"href": "https://classroom.google.com/u/0/c/NDUwNzU1OTE2NTYw?cjc=37qpaki"
+					"href": "https://classroom.google.com/c/NDUwNzU1OTE2NTYw?cjc=37qpaki"
 				},
 				{
-					"title": "EG Assignment Google Classroom (CSE Only)",
+					"title": "[CSE] EG Assignment Google Classroom",
 					"description": "Ajinkya Mude",
-					"href": "https://classroom.google.com/u/0/c/NDUyMjg5OTc0NDk3?cjc=bwfn6oq"
+					"href": "https://classroom.google.com/c/NDUyMjg5OTc0NDk3?cjc=bwfn6oq"
 				},
 				{
-					"title": "BME Google Classroom (CSE Only)",
+					"title": "[CSE] BME Google Classroom",
 					"description": "Anshul Thawkar",
 					"href": "https://classroom.google.com/c/NDUzNTkyMzUyNDQ5?cjc=e2mja2g"
 				},
 				{
-					"title": "Maths-1 Google Meet (CSE Only)",
+					"title": "[CSE] BCE Google Classroom",
+					"description": "Harsha Raut",
+					"href": "https://classroom.google.com/c/NDU3NTg5NDg5NDEz?cjc=6mq57zx"
+				},
+				{
+					"title": "[CSE] Maths-1 Google Meet",
 					"description": "Working on a method to see if this meet is active or not...",
 					"href": "https://meet.google.com/awh-kccp-vgs"
 				},
 				{
-					"title": "Applied Physics Attendance Link (CSE Only)",
+					"title": "[CSE] Applied Physics Attendance Link",
 					"description": "Link for CSE Only",
 					"href": "https://forms.gle/aj8qyxddZVX1H4ZW7"
 				},
@@ -93,7 +98,7 @@
 			"description": "Links for people from other walks of life.",
 			"links": [
 				{
-					"title": "Video Player",
+					"title": "Meet Video Player <br /> [Play Local Video in Browser]",
 					"description": "Play Local Video in a tab.",
 					"href": "/video"
 				}
