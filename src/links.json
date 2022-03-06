@@ -1,6 +1,6 @@
 {
 	"title": "DevParapalli's Links",
-	"subtitle": "",
+	"subtitle": "Who even uses this anyway...",
 	"sections": [
 		{
 			"title": "GCOEN",
@@ -13,7 +13,7 @@
 				},
 				{
 					"title": "CSE TimeTable",
-					"description": "** Not Yet Functional **",
+					"description": "Coolio ig",
 					"href": "/timetable"
 				},
 				{
@@ -82,6 +82,16 @@
 					"href": "https://meet.google.com/awh-kccp-vgs"
 				},
 				{
+					"title": "[CSE] BME Google Meet",
+					"description": "Working on a method to see if this meet is active or not...",
+					"href": "https://meet.google.com/kgb-fodx-kgb"
+				},
+				{
+					"title": "[CSE] CS Google Meet",
+					"description": "Working on a method to see if this meet is active or not...",
+					"href": "https://meet.google.com/drn-mdms-rxw"
+				},
+				{
 					"title": "[CSE] Applied Physics Attendance Link",
 					"description": "Link for CSE Only",
 					"href": "https://forms.gle/aj8qyxddZVX1H4ZW7"
@@ -95,7 +105,7 @@
 		},
 		{
 			"title": "Tools",
-			"description": "Links for people from other walks of life.",
+			"description": "Planning to add more in the future",
 			"links": [
 				{
 					"title": "Meet Video Player <br /> [Play Local Video in Browser]",
@@ -114,9 +124,9 @@
 					"href": "https://github.com/DevParapalli"
 				},
 				{
-					"title": "[WIP] music-manager-ng",
-					"description": "A [WIP] project to play and manage music over a terminal session",
-					"href": "https://github.com/DevParapalli/music-manager-ng"
+					"title": "Adhyaaya - 22 Website Intro",
+					"description": "The website for my college's tech fest",
+					"href": "https://github.com/DevParapalli/adhyaaya-svelte"
 				}
 			]
 		},
@@ -142,7 +152,7 @@
 				{
 					"title": "Email",
 					"description": "Email Address",
-					"href": "mailto:parapallidev@gmail.com"
+					"href": "mailto:devparapalli@gmail.com"
 				},
 				{
 					"title": "Telegram",
