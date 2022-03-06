@@ -33,7 +33,7 @@
 					"subject": "Basic Mechanical [111]",
 					"start_time": "14:00",
 					"end_time": "15:00",
-					"instructor": "Harsha Raut"
+					"instructor": "Thawkar Sir"
 				},
 				{
 					"subject": "Energy and Environment [111]",
@@ -66,10 +66,10 @@
 					"instructor": "N Raut"
 				},
 				{
-					"subject": "Communication Skills [23]",
+					"subject": "Basic Mechanical [23]",
 					"start_time": "15:15",
 					"end_time": "16:15",
-					"instructor": "Rasika Joshi"
+					"instructor": "Thawkar Sir"
 				},
 				{
 					"subject": "Engineering Graphics [102]",
@@ -99,7 +99,7 @@
 					"subject": "(A: Applied Physics) <br /> (B: Energy and Environment) <br /> (C: Communication Skills)",
 					"start_time": "15:15",
 					"end_time": "17:15",
-					"instructor": "J B Randhawa / Rasika Joshi"
+					"instructor": "J B Randhawa / Snehal Chavan / Rasika Joshi"
 				},
 				{
 					"subject": "(A: Applied Physics)",
@@ -132,16 +132,16 @@
 					"instructor": "J B Randhawa"
 				},
 				{
-					"subject": "Basic Mechanical [111]",
+					"subject": "Communication Skills [111]",
 					"start_time": "14:00",
 					"end_time": "15:00",
-					"instructor": "Harsha Raut"
+					"instructor": "Rasika Joshi"
 				},
 				{
 					"subject": "(A: Communication Skills) <br /> (B: Applied Physics) <br /> (C: Energy and Environment)",
 					"start_time": "15:15",
 					"end_time": "17:15",
-					"instructor": "J B Randhawa"
+					"instructor": "Rasika Joshi / J B Randhawa / Snehal Chavan"
 				},
 				{
 					"subject": "(B: Applied Physics)",
@@ -171,7 +171,7 @@
 					"subject": "Energy and Environment [111]",
 					"start_time": "13:00",
 					"end_time": "14:00",
-					"instructor": "Dr. Snehal Chavan"
+					"instructor": "Snehal Chavan"
 				},
 				{
 					"subject": "Communication Skills [111]",
@@ -183,7 +183,7 @@
 					"subject": "(A: Energy and Environment) <br /> (B: Communication Skills) <br /> (C: Applied Physics)",
 					"start_time": "15:15",
 					"end_time": "17:15",
-					"instructor": "Dr. Snehal Chavan/ Rasika Joshi / J B Randhawa"
+					"instructor": "Snehal Chavan/ Rasika Joshi / J B Randhawa"
 				},
 				{
 					"subject": "(C: Applied Physics)",
