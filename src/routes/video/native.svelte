@@ -11,6 +11,7 @@
 		<Plyr>
 			<video crossorigin="anonymous" playsinline id="player">
 				<source src={source} />
+				<track kind="captions" src="null" />
 			</video>
 		</Plyr>
 	</div>

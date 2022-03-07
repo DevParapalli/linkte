@@ -3,7 +3,7 @@
 	<h2 class="sm:text-3xl text-2xl title-font font-medium text-white mt-4 mb-4">TITLE</h2>
 	<p class="leading-relaxed mb-8">MessageText</p>
 	<div class="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-gray-800 border-opacity-75 mt-auto w-full">
-		<a class="text-green-400 inline-flex items-center"
+		<a href="/" class="text-green-400 inline-flex items-center"
 			>Learn More
 			<svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
 				<path d="M5 12h14" />
@@ -23,7 +23,7 @@
 			</svg>CSE
 		</span>
 	</div>
-	<a class="inline-flex items-center">
+	<a href="/" class="inline-flex items-center">
 		<img alt="blog" src="https://dummyimage.com/104x104" class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center" />
 		<span class="flex-grow flex flex-col pl-4">
 			<span class="title-font font-medium text-white">Author Name</span>
