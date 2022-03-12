@@ -3,7 +3,7 @@
 	"subtitle": "Updated to Svelte 1.0.0-next.294, Does it matter for the end user ? No",
 	"sections": [
 		{
-			"title": "GCOEN",
+			"title": "GCOEN CSE",
 			"description": "Links for people from GCOEN",
 			"links": [
 				{
@@ -12,14 +12,9 @@
 					"href": "/guides"
 				},
 				{
-					"title": "CSE TimeTable",
+					"title": "[CSE] TimeTable",
 					"description": "Coolio ig",
 					"href": "/timetable"
-				},
-				{
-					"title": "GCOEN Home Page",
-					"description": "Home Page for the GCOEN Institute",
-					"href": "https://www.gcoen.ac.in/"
 				},
 				{
 					"title": "Reference Books",
@@ -32,17 +27,17 @@
 					"href": "https://drive.google.com/drive/folders/1UdYX4k9CMmQ3CeE1lkEYFWifKJ1jdgy1?usp=sharing"
 				},
 				{
-					"title": "Notes",
+					"title": "[CSE] Notes",
 					"description": "These are notes uploaded by me or college-mates",
 					"href": "https://drive.google.com/drive/folders/1Wekg9FGyy64qmOlYpu1gTKHzaT-pcLJp?usp=sharing"
 				},
 				{
-					"title": "Reference Notes by Instructor",
+					"title": "[CSE] Reference Notes by Instructor",
 					"description": "These are notes uploaded by the instructor",
 					"href": "https://drive.google.com/drive/folders/1NklWavEIQAeY74V3cyulBySEpnc9Nett?usp=sharing"
 				},
 				{
-					"title": "Upload Notes Here",
+					"title": "[CSE] Upload Notes Here",
 					"description": "Upload your submissions here",
 					"href": "https://forms.gle/5SCYT6q4iZTzAeUcA"
 				},
@@ -95,6 +90,17 @@
 					"title": "[CSE] Applied Physics Attendance Link",
 					"description": "Link for CSE Only",
 					"href": "https://forms.gle/aj8qyxddZVX1H4ZW7"
+				}
+			]
+		},
+		{
+			"title": "GCOEN GENERAL",
+			"description": "Planning to add more in the future",
+			"links": [
+				{
+					"title": "GCOEN Home Page",
+					"description": "Home Page for the GCOEN Institute",
+					"href": "https://www.gcoen.ac.in/"
 				},
 				{
 					"title": "GCOEN Discord Server",
@@ -103,6 +109,7 @@
 				}
 			]
 		},
+
 		{
 			"title": "Tools",
 			"description": "Planning to add more in the future",
@@ -111,6 +118,11 @@
 					"title": "Meet Video Player <br /> [Play Local Video in Browser]",
 					"description": "Play Local Video in a tab.",
 					"href": "/video"
+				},
+				{
+					"title": "[WhatsApp] No Save Send",
+					"description": "Send a message to someone without saving that number to your phone",
+					"href": "/whatsapp"
 				}
 			]
 		},
