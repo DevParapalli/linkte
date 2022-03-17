@@ -5,13 +5,13 @@ import { goto } from "$app/navigation";
 
     // https://wa.me/<number> is the link, use full international standard number
     function get_formatted_number(input_number: string) {
-        if (input_number.startsWith("+")) {
-            // Person has inputted the number in the format +91XXXXXXXXXX
-            input_number = input_number.replace("+", "00");
+        if (input_number.startsWith("00")) {
+            // Person has inputted the number in the format 0091XXXXXXXXXX
+            input_number = input_number.replace("00", "+");
         }
         if (input_number.length === 10) {
             // Person has inputted the number in the format XXXXXXXXXX
-            input_number = "0091" + input_number;
+            input_number = "+91" + input_number;
         }
         return input_number;
     }
