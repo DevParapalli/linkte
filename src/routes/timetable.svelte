@@ -20,6 +20,10 @@
 	$: current_timetable = timetable.days[timetable_index];
 </script>
 
+<svelte:head>
+	<title>CSE Timetable</title>
+</svelte:head>
+
 <section class="text-gray-400 bg-gray-900 body-font">
 	<div class="container px-5 pt-14 pb-auto mx-auto">
 		<div class="flex flex-col text-center w-full mb-20">
