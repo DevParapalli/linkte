@@ -1,6 +1,86 @@
 {
-	"title": "lmao nothing here",
-	"subtitle": "who even used it anyway",
+	"title": "DevParapalli's Links",
+	"subtitle": "Disappointing people since 2003",
 	"sections": [
+		{
+			"title": "GCOEN CSE",
+			"description": "Links for people from GCOEN",
+			"links": [
+				{
+					"title": "[CSE] Guides",
+					"description": "Links and stuff for installing and working with programming tools",
+					"href": "/guides"
+				},
+				{
+					"title": "[CSE] TimeTable",
+					"description": "Coolio ig",
+					"href": "/timetable"
+				}
+			]
+		},
+		{
+			"title": "GCOEN GENERAL",
+			"description": "Planning to add more in the future",
+			"links": [
+				{
+					"title": "GCOEN Home Page",
+					"description": "Home Page for the GCOEN Institute",
+					"href": "https://www.gcoen.ac.in/"
+				},
+				{
+					"title": "GCOEN Discord Server",
+					"description": "Invite link for a discord server about GCOEN",
+					"href": "https://discord.gg/FsTjAFhRU2"
+				}
+			]
+		},
+
+		{
+			"title": "Tools",
+			"description": "Planning to add more in the future",
+			"links": [
+				{
+					"title": "[G Meet] Video Player",
+					"description": "Play Local Video in a tab.",
+					"href": "/video"
+				},
+				{
+					"title": "[WA] Send Message",
+					"description": "Send a message to someone without saving that number to your phone",
+					"href": "/whatsapp"
+				}
+			]
+		},
+		{
+			"title": "Socials",
+			"description": "Links for my socials",
+			"links": [
+				{
+					"title": "GitHub",
+					"description": "GitHub Profile Page",
+					"href": "https://github.com/DevParapalli"
+				},
+				{
+					"title": "LinkedIn",
+					"description": "LinkedIn Profile Page",
+					"href": "https://www.linkedin.com/in/devansh-parapalli-6ba418181/"
+				},
+				{
+					"title": "Twitch",
+					"description": "Twitch Profile Page",
+					"href": "https://www.twitch.tv/RogueCatalystTTV"
+				},
+				{
+					"title": "Email",
+					"description": "Email Address",
+					"href": "mailto:devparapalli@gmail.com"
+				},
+				{
+					"title": "Telegram",
+					"description": "Telegram DM",
+					"href": "https://t.me/devparapalli"
+				}
+			]
+		}
 	]
 }

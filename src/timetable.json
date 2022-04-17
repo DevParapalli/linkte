@@ -12,34 +12,34 @@
 			"display": true,
 			"subjects": [
 				{
-					"subject": "Math 1 [111]",
+					"subject": "Mathematics 2 [111]",
 					"start_time": "10:30",
 					"end_time": "11:30",
-					"instructor": "N Raut"
+					"instructor": "--"
 				},
 				{
-					"subject": "Applied Physics [111]",
+					"subject": "Applied Chemistry [111]",
 					"start_time": "11:30",
 					"end_time": "12:30",
-					"instructor": "J B Randhawa"
+					"instructor": "--"
 				},
 				{
-					"subject": "Basic Civil [111]",
+					"subject": "Basics of Electrical Engineering [111]",
 					"start_time": "13:00",
 					"end_time": "14:00",
-					"instructor": "Harsha Raut"
+					"instructor": "--"
 				},
 				{
-					"subject": "Basic Mechanical [111]",
+					"subject": "Engineering Mechanics [111]",
 					"start_time": "14:00",
 					"end_time": "15:00",
-					"instructor": "Thawkar Sir"
+					"instructor": "--"
 				},
 				{
-					"subject": "Energy and Environment [111]",
+					"subject": "Indian Culture and Constitution [102]",
 					"start_time": "15:15",
 					"end_time": "16:15",
-					"instructor": "Dr. Snehal Chavan"
+					"instructor": "--"
 				}
 			]
 		},
@@ -48,34 +48,28 @@
 			"display": true,
 			"subjects": [
 				{
-					"subject": "Engineering Graphics (Practical) [102]",
+					"subject": "Workshop Practices [---]",
 					"start_time": "10:30",
 					"end_time": "12:30",
-					"instructor": "Ajinkya Mude"
+					"instructor": "--"
 				},
 				{
-					"subject": "Energy and Environment [23]",
+					"subject": "Workshop Practices [---]",
 					"start_time": "13:00",
-					"end_time": "14:00",
-					"instructor": "Dr. Snehal Chavan"
-				},
-				{
-					"subject": "Math 1 [23]",
-					"start_time": "14:00",
 					"end_time": "15:00",
-					"instructor": "N Raut"
+					"instructor": "--"
 				},
 				{
-					"subject": "Basic Mechanical [23]",
+					"subject": "Advanced Engineering Mechanics [123]",
 					"start_time": "15:15",
 					"end_time": "16:15",
-					"instructor": "Thawkar Sir"
+					"instructor": "--"
 				},
 				{
-					"subject": "Engineering Graphics [102]",
+					"subject": "Computational Skill [123]",
 					"start_time": "16:15",
 					"end_time": "17:15",
-					"instructor": "Ajinkya Mude"
+					"instructor": "--"
 				}
 			]
 		},
@@ -84,28 +78,40 @@
 			"display": true,
 			"subjects": [
 				{
-					"subject": "Applied Physics [23]",
+					"subject": "Indian Culture & Constitution [23]",
 					"start_time": "11:30",
 					"end_time": "12:30",
-					"instructor": "J B Randhawa"
+					"instructor": "--"
 				},
 				{
-					"subject": "Engineering Graphics (Practical) [102]",
+					"subject": "Mathematics 2 [111]",
+					"start_time": "11:30",
+					"end_time": "12:30",
+					"instructor": "--"
+				},
+				{
+					"subject": "Advanced Engineering Materials [111]",
 					"start_time": "13:00",
-					"end_time": "15:00",
-					"instructor": "Ajinkya Mude"
+					"end_time": "14:00",
+					"instructor": "--"
 				},
 				{
-					"subject": "(A: Applied Physics) <br /> (B: Energy and Environment) <br /> (C: Communication Skills)",
+					"subject": "Applied Chemistry [23]",
+					"start_time": "14:00",
+					"end_time": "15:00",
+					"instructor": "--"
+				},
+				{
+					"subject": "(A: Applied Chemistry) <br /> (B: Advanced Engineering Materials) <br /> (C: Computation Skill)",
 					"start_time": "15:15",
 					"end_time": "17:15",
-					"instructor": "J B Randhawa / Snehal Chavan / Rasika Joshi"
+					"instructor": "--/ -- / --"
 				},
 				{
-					"subject": "(A: Applied Physics)",
+					"subject": "(A: Applied Chemistry)",
 					"start_time": "17:15",
 					"end_time": "18:15",
-					"instructor": "J B Randhawa"
+					"instructor": "--"
 				}
 			]
 		},
@@ -114,40 +120,40 @@
 			"display": true,
 			"subjects": [
 				{
-					"subject": "Math 1 [111]",
+					"subject": "Math 2 [111]",
 					"start_time": "10:30",
 					"end_time": "11:30",
-					"instructor": "N Raut"
+					"instructor": "--"
 				},
 				{
-					"subject": "Basic Civil [111]",
+					"subject": "Engineering Mechanics [111]",
 					"start_time": "11:30",
 					"end_time": "12:30",
-					"instructor": "Harsha Raut"
+					"instructor": "--"
 				},
 				{
-					"subject": "Applied Physics [111]",
+					"subject": "Basics of Electrical Engineering [111]",
 					"start_time": "13:00",
 					"end_time": "14:00",
-					"instructor": "J B Randhawa"
+					"instructor": "--"
 				},
 				{
-					"subject": "Communication Skills [111]",
+					"subject": "Applied Chemistry [111]",
 					"start_time": "14:00",
 					"end_time": "15:00",
-					"instructor": "Rasika Joshi"
+					"instructor": "--"
 				},
 				{
-					"subject": "(A: Communication Skills) <br /> (B: Applied Physics) <br /> (C: Energy and Environment)",
+					"subject": "(A: Computation Skill) <br /> (B: Applied Chemistry) <br /> (C: Advanced Engineering Materials)",
 					"start_time": "15:15",
 					"end_time": "17:15",
-					"instructor": "Rasika Joshi / J B Randhawa / Snehal Chavan"
+					"instructor": "-- / -- / --"
 				},
 				{
-					"subject": "(B: Applied Physics)",
+					"subject": "(B: Applied Chemistry)",
 					"start_time": "17:15",
 					"end_time": "18:15",
-					"instructor": "J B Randhawa"
+					"instructor": "--"
 				}
 			]
 		},
@@ -156,40 +162,40 @@
 			"display": true,
 			"subjects": [
 				{
-					"subject": "Applied Physics [111]",
+					"subject": "Advanced Engineering Materials [111]",
 					"start_time": "10:30",
 					"end_time": "11:30",
-					"instructor": "J B Randhawa"
+					"instructor": "--"
 				},
 				{
-					"subject": "Math 1 [111]",
+					"subject": "Math 2 [111]",
 					"start_time": "11:30",
 					"end_time": "12:30",
-					"instructor": "N Raut"
+					"instructor": "--"
 				},
 				{
-					"subject": "Energy and Environment [111]",
+					"subject": "Applied Chemistry [111]",
 					"start_time": "13:00",
 					"end_time": "14:00",
-					"instructor": "Snehal Chavan"
+					"instructor": "--"
 				},
 				{
-					"subject": "Communication Skills [111]",
+					"subject": "Computation Skill [111]",
 					"start_time": "14:00",
 					"end_time": "15:00",
-					"instructor": "Rasika Joshi"
+					"instructor": "--"
 				},
 				{
-					"subject": "(A: Energy and Environment) <br /> (B: Communication Skills) <br /> (C: Applied Physics)",
+					"subject": "(A: Advanced Engineering Materials) <br /> (B: Computation Skill) <br /> (C: Applied Chemistry)",
 					"start_time": "15:15",
 					"end_time": "17:15",
-					"instructor": "Snehal Chavan/ Rasika Joshi / J B Randhawa"
+					"instructor": "--/ -- / --"
 				},
 				{
-					"subject": "(C: Applied Physics)",
+					"subject": "(C: Applied Chemistry)",
 					"start_time": "17:15",
 					"end_time": "18:15",
-					"instructor": "J B Randhawa"
+					"instructor": "--"
 				}
 			]
 		},
