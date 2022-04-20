@@ -12,9 +12,9 @@
 					"href": "/guides"
 				},
 				{
-					"title": "[CSE] TimeTable",
-					"description": "Coolio ig",
-					"href": "/timetable"
+					"title": "[CSE] Shared Google Drive",
+					"description": "AHHHH AHS AH S",
+					"href": "https://drive.google.com/drive/folders/1ILIN08w6zuJXXx3Vbn4qPKNy0bp4dS54?usp=sharing"
 				}
 			]
 		},
@@ -55,6 +55,11 @@
 			"title": "Socials",
 			"description": "Links for my socials",
 			"links": [
+				{
+					"title": "Instagram",
+					"description": "Why did I create an insta ?",
+					"href": "https://www.instagram.com/asdfghbjnkml.swedrft/"
+				},
 				{
 					"title": "GitHub",
 					"description": "GitHub Profile Page",
