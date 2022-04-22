@@ -5,7 +5,12 @@ const config = {
 	content: ['./src/**/*.{html,js,svelte,ts}'],
 
 	theme: {
-		extend: {}
+		extend: {
+			
+		},
+		container: {
+			center: true,
+		}
 	},
 
 	plugins: [forms, typography, require('daisyui')],
