@@ -25,20 +25,19 @@
 	});
 
 function onRunClick(event) {
-    console.log(code)
+    let value = editor.getValue();
+    console.log(value);
 }
 
 </script>
 
-
-<div class="editor" on:change="{(c) => code = c}" bind:this={monacoEl}>
-
+<button on:click="{onRunClick}">RUN</button>
+<div class="editor" bind:this={monacoEl}>
 </div>
 
 <style>
     .editor {
         height: 50vh;
-        font-family: "Source Code Pro", monospace;
         @apply m-4
     }
 </style>
