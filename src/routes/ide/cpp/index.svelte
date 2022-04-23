@@ -4,6 +4,7 @@
     
 
 	import JSCPP from 'JSCPP';
+import { provide_completion_items } from '$lib/languages/cpp';
 
     let _monaco: typeof import('monaco-editor');
 
@@ -16,7 +17,7 @@
 			if (monacoEl && !editor) {
 				editor = monaco.editor.create(monacoEl, {
 					value: '#include <iostream>\n//I couldn\'t impliment all headers/libs.\n\nusing namespace std;\nint main() { \n\tint a;\n\tcin >> a; //Supports CIN using the Input field below\n\tcout << "Number Entered : " << a << endl; \n\t// Look in the browser console to see more details.\n\treturn 0;\n}',
-					language: 'cpp',
+					language: 'c',
 					theme: 'vs-dark',
 					automaticLayout: true,
 					scrollBeyondLastLine: false,
@@ -29,18 +30,12 @@
 			}
 			// Register the C and C++ Languages
 			// monaco.languages.register({ id: 'cpp' });
-			// monaco.languages.registerCompletionItemProvider('cpp', {
-			//     provideCompletionItems: () => {
-			//         let suggestions = [
-			//             {
-			//                 label: 'inline',
-			//                 insertText: 'inline',
-			//                 kind: monaco.languages.CompletionItemKind.Keyword
-			//             }
-			//         ];
-			//         return { suggestions: suggestions };
-			//     }
-			// })
+			monaco.languages.registerCompletionItemProvider('c', {
+			    provideCompletionItems: provide_completion_items
+			})
+            monaco.languages.registerCompletionItemProvider('cpp', {
+			    provideCompletionItems: provide_completion_items
+			})
 		});
 	});
 

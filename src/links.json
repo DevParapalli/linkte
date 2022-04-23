@@ -48,6 +48,11 @@
 					"title": "[WA] Send Message",
 					"description": "Send a message to someone without saving that number to your phone",
 					"href": "/whatsapp"
+				},
+				{
+					"title": "[C/C++] Online Interpreter",
+					"description": "Interpreter for C/C++",
+					"href": "https://felixhao28.github.io/JSCPP/"
 				}
 			]
 		},
