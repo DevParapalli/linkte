@@ -29,6 +29,60 @@ export enum CompletionItemKind {
     Snippet = 27
 }
 
-// Provide all Keywords, snippets for if else, functions etc
+export enum CompletionItemInsertTextRule {
+    /**
+     * Adjust whitespace/indentation of multiline insert texts to
+     * match the current line indentation.
+     */
+    KeepWhitespace = 1,
+    /**
+     * `insertText` is a snippet.
+     */
+    InsertAsSnippet = 4
+}
 
-export {};
+export interface CustomCompletionItem {
+    /** Label is the thing that is displayed when invoking the completions */
+    label: string;
+    /** CompletionItemKind.Snippet / Keyword / Const* Class* function* */
+    kind: CompletionItemKind;
+    /** String explaining what the item does */
+    documentation: string;
+    /** Text with custom markers for snippets */
+    insertText: string;
+    /** InsertAsSnippet for Snippet, KeepWhitespace for the rest */
+    insertTextRules?: CompletionItemInsertTextRule;
+}
+
+const keyword_map_c = [
+]
+
+
+function generate_completion_keyword(keyword: string): CustomCompletionItem {
+    return {
+        label: keyword,
+        kind: CompletionItemKind.Keyword,
+        documentation: keyword,
+        insertText: keyword
+    };
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+export const completions: CustomCompletionItem[] = [
+]
+
+
+
+// Provide all Keywords, snippets for if else, functions etc 

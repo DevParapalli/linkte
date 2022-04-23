@@ -37,3 +37,9 @@ body {
 .header-time {
 	font-family: 'Fira Code', monospace;
 }
+
+.error-line {
+	background: red;
+	width: 0.5em !important;
+	margin-left: -1px;
+}
